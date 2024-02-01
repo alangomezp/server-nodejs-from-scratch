@@ -1,0 +1,18 @@
+###Get Resource [GET]
+GET http://localhost:3000/pokemon/charizard HTTP/1.1
+
+###Create Resource [POST]
+POST http://localhost:3000/create/pokemon HTTP/1.1
+Content-Type: 'application/json'
+
+{
+    "name": "Ditto",
+    "ability": "Limber",
+    "height": "3"
+}
+
+###Update Resource [PUT]
+PUT http://localhost:3000/put/charizard
+
+###Delete Resource [DELETE]
+DELETE http://localhost:3000/delete/charizard

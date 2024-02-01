@@ -1,0 +1,32 @@
+{
+  "name": "server-nodejs-from-scratch",
+  "version": "1.0.0",
+  "description": "Server made with nodejs without express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alangomezp/server-nodejs-from-scratch.git"
+  },
+  "keywords": [
+    "node",
+    "server",
+    "endpoint"
+  ],
+  "author": "Alan Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alangomezp/server-nodejs-from-scratch/issues"
+  },
+  "homepage": "https://github.com/alangomezp/server-nodejs-from-scratch#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.3",
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
